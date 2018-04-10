@@ -1,24 +1,134 @@
 <!doctype html>
 <html>
-  <head>
-  <title>Power 2 Start</title>
-  </head>
-  <body>
 
-      <iframe
-              width="600"
-              height="450"
-              frameborder="0" style="border:0"
-              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC-kG4yQHh0PN4ijoufheCawk7Zj4tHmzM&q=Dublin+Ireland" allowfullscreen>
+    <title>Power 2 Start</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+    body {font-family: "Times New Roman", Georgia, Serif;}
+    h1,h2,h3,h4,h5,h6 {
+        font-family: "Playfair Display";
+        letter-spacing: 5px;
+    }
+    </style>
+    <body>
 
-      </iframe
-      <ul>
-        <li href="resources">Resources</li>
-      </ul>
-    # <div id="map_wrapper"> #
-      <div id="map_canvas" style="width:750px; height:450px; border: 2px solid #3872ac;"></div>
 
-      <h1>Entrepreneurship resources for youth</h1>
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+        <a href="#home" class="w3-bar-item w3-button">Power 2 Start - Entrepreneurship Resources for Youth</a>
 
-   </body>
-</html>
+        <div class="w3-right w3-hide-small">
+          <a href="#about" class="w3-bar-item w3-button">About</a>
+          <a href="#Resources" class="w3-bar-item w3-button">Resources</a>
+                <a href="#community" class="w3-bar-item w3-button">Community</a>
+
+
+
+        </div>
+      </div>
+
+        </div>
+
+
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+      <img class="w3-image" src="C:\Users\diana\Desktop\Pyth Course\dummy_flask_app\dummy_flask_app\static\images\image1.jpeg" alt="Find your group" width="1600" height="800">
+      <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+      <h1 class="w3-xxlarge">  <p class="w3-text-white w3-large">Find your group,  Grow your ideas</p></h1>
+      </div>
+    </header>
+
+
+    <div class="w3-content" style="max-width:1100px">
+
+
+      <div class="w3-row w3-padding-64" id="about">
+        <div class="w3-col m6 w3-padding-large w3-hide-small">
+         <img src="C:\Users\diana\Desktop\Pyth Course\dummy_flask_app\dummy_flask_app\static\images\front.png" class="w3-round w3-image w3-opacity-min" alt="Grow your ideas" width="600" height="750">
+        </div>
+
+        <div class="w3-col m6 w3-padding-large">
+          <h1 class="w3-center">Power 2 Start</h1><br>
+          <h5 class="w3-center">Entrepreneurship Resources for Youth</h5>
+          <p class="w3-large">Welcome to Power2start. This website is for young Irish based entrepreneurs and future entrepreneurs (15-24 years old) who have an idea or project they would like to develop further. The website is designed to empower young people with the knowledge, skills and resources they may need to bring their idea to life. Developing a support network is important for entrepreneurship to thrive and the Power2start community page has been designed with this in mind. </p>
+          <p class="w3-large">We are <span class="w3-tag w3-light-grey">Emma O'Brien</span>, a PhD Researcher  </p>
+          <p class="w3-large">and <span class="w3-tag w3-light-grey">Diana Martin</span>, a PhD Researcher at Dublin Institute of Technology, co-founder of the NGO Link Education and Practice, named in 2015 by the Forum Alpbach as a European innovator in tackling inequality in education  </p>
+          <p class="w3-large">You can join us also on <a href="https://twitter.com/Power2Start1">Twitter</a>! Please post any events for young entrepreneurs followed by #2Power2Start  </p>
+
+
+        </div>
+      </div>
+
+      <hr>
+
+
+      <div class="w3-row w3-padding-64" id="Resources">
+        <div class="w3-col l6 w3-padding-large">
+          <span class="w3-tag w3-light-grey"><h1 class="w3-center">Resources</h1></span><br>
+
+          <h4>Competitions</h4>
+
+          <p class="w3-text-grey"><a href="http://www.ibye.ie">Ireland’s Best Young Entrepreneur</a> </p>
+          <p class="w3-text-grey"><a href="https://www.makeawish.ie/get-involved/kids-for-wish-kids">Make a wish Social Enterprise Competition</a> </p>
+          <p class="w3-text-grey"><a href="http://www.enactus.org/events/ireland">Enactus Ireland Competition<a/> </p>
+          <p class="w3-text-grey"><a href="https://www.entrepreneurship-campus.org/">Youth Citizen Entrepreneurship competition <a/> </p>
+          <p class="w3-text-grey"><a href="http://socialentrepreneurs.ie/">Social Entrepreneurs Ireland Awards<a/> </p>
+
+          <h4>Videos</h4>
+          <p class="w3-text-grey">Video 1</p><br>
+
+          <h4>Support for Youth entrepreneurship in Dublin</h4>
+
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-kG4yQHh0PN4ijoufheCawk7Zj4tHmzM&q=Dublin+Ireland">
+          <script src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=geometry,places&ext=.js">
+          </script>
+          </head>
+          <body>
+
+          <div id="map-canvas"  style="width:750px; height:450px; border: 2px solid #3872ac;"/>
+
+          <script type="text/javascript" src="../static/js/maps.js"></script>
+          <iframe
+                  width="600"
+                  height="450"
+                  frameborder="0" style="border:0"
+                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC-kG4yQHh0PN4ijoufheCawk7Zj4tHmzM&q=Dublin+Ireland" allowfullscreen>
+
+          </iframe>
+          </body>
+
+
+        </div>
+
+        <div class="w3-col l6 w3-padding-large">
+
+        </div>
+      </div>
+
+      <hr>
+
+
+      <div class="w3-container w3-padding-64" id="community">
+        <span class="w3-tag w3-light-grey"><h1>Community</h1></span><br>
+          <h4>Entrepreneurial You(th)</h4>
+           <p>Do you have an idea for a business or a skill you want to share? What are you waiting for, <a href="signup.html">click to Sign Up and join our growing community today!</a> </p>
+          <h4>Supporters of Youth Entrepreneurship</h4>
+          <p>If you are part of an initiative which delivers products or services that support youth entrepreneurship, and you want to make them known on our website, feel welcome to send us a message below:</p>
+
+        <form action="/action_page.php" target="_blank">
+          <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+          <p><input class="w3-input w3-padding-16" type="text" placeholder="What type of support you offer?" required name="Support"></p>
+          <p><input class="w3-input w3-padding-16" type="text" placeholder="What is your location?" required name="location"></p>
+          <p><input class="w3-input w3-padding-16" type="text" placeholder="Your message or additional Info" required name="Message"></p>
+          <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+        </form>
+      </div>
+
+
+    </div>
+
+
+
+    </body>
+    </html>

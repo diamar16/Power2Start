@@ -1,12 +1,12 @@
 var locations = [
   ['Dublin City Council Local Enterprise Office', 'Civic Offices,Block 4, Floor 1, Dublin 8', 'https://www.localenterprise.ie/DublinCity/'],
   ['Dublin South Local Enterprise Office', 'County Hall, Belgard Square North, Tallaght, Dublin 24', 'https://www.localenterprise.ie/SouthDublin'],
-  ['Microfinance Ireland', '13 Richview Office Park, Clonskeagh Road, Dublin 14, Ireland, Clonskeagh, Co. Dublin, D14 Y867', 'www.microfinanceireland.ie'],
-  ['DIT Hothouse', 'Dublin Institute Of Technology, Aungier Street, Dublin, D02HW71', 'www.dit.ie/hothouse'],
+  ['Microfinance Ireland', '13 Richview Office Park, Clonskeagh Road, Dublin 14, Ireland, Clonskeagh, Co. Dublin, D14 Y867', 'https://www.microfinanceireland.ie'],
+  ['DIT Hothouse', 'Dublin Institute Of Technology, Aungier Street, Dublin, D02HW71', 'https://www.dit.ie/hothouse'],
   ['TCD Innovation Hub', 'Trinity College Dublin, Dublin 2', 'https://www.tcd.ie/explore-innovation/'],
-  ['The Innovation Academy, UCD', 'Shackleton Lounge. O’Brien Science Centre, Belfield Campus, University College Dublin', 'www.innovators.ie'],
-  ['DCU Ryan’s academy', '3013a Lake Dr, Citywest Business Campus, Dublin 24', 'ryanacademy.ie'],
-  ['Social Entrepreneurs Ireland', '12 Warrington Pl, Grand Canal Dock, Dublin', 'socialentrepreneurs.ie'],
+  ['The Innovation Academy, UCD', 'Shackleton Lounge. O’Brien Science Centre, Belfield Campus, University College Dublin', 'https://www.innovators.ie'],
+  ['DCU Ryan’s academy', '3013a Lake Dr, Citywest Business Campus, Dublin 24', 'https://www.ryanacademy.ie'],
+  ['Social Entrepreneurs Ireland', '12 Warrington Pl, Grand Canal Dock, Dublin', 'https://www.socialentrepreneurs.ie'],
   ['Foroige Youth Entrepreneurship', '12D Joyce Way, Cherry Orchard, Dublin, D12 Y0A6', 'https://www.foroige.ie/'],
   ['Dog Patch Labs', 'The CHQ Building, Custom House Quay, Dublin 1', 'https://dogpatchlabs.com'],
   ['NDRC', 'Crane St, Dublin', 'http://www.ndrc.ie/']

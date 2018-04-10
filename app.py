@@ -7,9 +7,9 @@ app = Flask(__name__)
 def home():
     return render_template("home.html")
 
-@app.route("/resources")
+@app.route("/signup")
 def resources():
-    return render_template("resources.html")
+    return render_template("signup.html")
 
 
 if __name__ == "__main__":
